@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omnifood</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header id="master-header" class="bg-light-orange">
+
+            <!-- nav section -->
+            <nav class="navbar navbar-expand-lg navbar-light container">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img id="logo" src="./omnifood-logo.png" alt="logo" class="img-fluid" style="width: 120px; height: 12px;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav gap-3">
+                            <li class="nav-item"><a class="nav-link" href="#">How it works</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Meals</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        </ul>
+                        <button class="btn btn-primary ms-3 mt-2" id="try-btn">Try For Free</button>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- hero section -->
+            <div class="container py-5" id="main-header">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <h1 class="mb-4 mt-3">A healthy meal delivered to your door, every single day</h1>
+                        <p id="desc-para" class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, est dolor praesentium numquam earum.</p>
+                        <button class="btn btn-primary mb-5" id="eat-btn">Start Eating Well</button>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img id="hero-img" src="./hero.png" alt="Hero Image" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- how it works -->
+        <section id="howitworks" class="py-5">
+            <div class="container text-center">
+                <h5 id="howitworks-title" class="text-primary">How It Works</h5>
+                <p id="howitworks-para">Your Daily Dose of Health in 3 simple steps</p>
+                <div id="steps" class="mt-5">
+                    <div class="row align-items-center mb-5 step">
+                        <div class="col-md-6 order-md-1">
+                            <p class="p-num">01</p>
+                            <h3>Tell Us What You Like (and What Not)</h3>
+                            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis? Id a adipisci fugit vero mollitia tempora iste quasi earum veniam debitis dolorem aliquid veritatis aspernatur aut, eligendi itaque quo?</p>
+                        </div>
+                        <div class="col-md-6 order-md-2 text-center">
+                            <img src="./app/app-screen-1.png" alt="Step 1" class="img-fluid" style="max-width: 200px;">
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5 step">
+                        <div class="col-md-6 order-md-2">
+                            <p class="p-num">02</p>
+                            <h3>Approve your weekly meal plan</h3>
+                            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quisquam voluptatum hic veritatis porro eveniet. Itaque laudantium sit commodi? Illo, repudiandae iste voluptates provident sequi incidunt! Ullam aliquam consequuntur magni!</p>
+                        </div>
+                        <div class="col-md-6 order-md-1 text-center">
+                            <img src="./app/app-screen-2.png" alt="Step 2" class="img-fluid" style="max-width: 200px;">
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5 step">
+                        <div class="col-md-6 order-md-1">
+                            <p class="p-num">03</p>
+                            <h3>Receive meals at convenient time</h3>
+                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad sed fugit veritatis optio pariatur recusandae! Dolor quam et sapiente non suscipit, distinctio, quae placeat odio id ipsam inventore soluta! Dignissimos.</p>
+                        </div>
+                        <div class="col-md-6 order-md-2 text-center">
+                            <img src="./app/app-screen-3.png" alt="Step 3" class="img-fluid" style="max-width: 200px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- meals section -->
+        <section id="meals">
+            <header id="meals-header">
+                <h5 id="meal-title">MEALS</h5>
+                <p id="meal-title-desc">Omnifood AI chooses from 5,000+ recipes</p>
+            </header>
+            <section class="meal-boxes">
+                <div class="meal">
+                    <img class="meal-img" src="./meals/meal-1.jpg" alt="meal">
+                    <div class="meal-desc">
+                        <p class="green py-1 px-2">VEGETARIAN</p>
+                        <h3>Japanese Gyozas</h3>
+                        <ul class="meal-details">
+                            <li><img class="icon" src="./icons/fire.png" alt=""> <span><span class="num">650</span> calories</span></li>
+                            <li><img class="icon" src="./icons/fork.png" alt=""><span>NutriScore ® <span class="num">74</span></span></li>
+                            <li><img class="icon" src="./icons/star.png" alt=""> <span><span class="num">4.9</span> rating (537)</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="meal">
+                    <img class="meal-img" src="./meals/meal-2.jpg" alt="">
+                    <div class="meal-desc">
+                        <p><span class="light-green py-1 px-2">VEGAN</span><span class="orange-yellow py-1 px-2">PALEO</span></p>
+                        <h3 id="avo-title">Avocado Salad</h3>
+                        <ul class="meal-details">
+                            <li><img class="icon" src="./icons/fire.png" alt=""> <span><span class="num">400</span> calories</span></li>
+                            <li><img class="icon" src="./icons/fork.png" alt=""><span>NutriScore ® <span class="num">92</span></span></li>
+                            <li><img class="icon" src="./icons/star.png" alt=""> <span><span class="num">4.8</span> rating (441)</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="meal">
+                    <img class="meal-img" src="./meals/meal-3.jpg" alt="">
+                    <div class="meal-desc">
+                        <p class="green py-1 px-2">VEGETARIAN</p>
+                        <h3>Japanese Gyozas</h3>
+                        <ul class="meal-details">
+                            <li><img class="icon" src="./icons/fire.png" alt=""> <span><span class="num">650</span> calories</span></li>
+                            <li><img class="icon" src="./icons/fork.png" alt=""><span>NutriScore ® <span class="num">74</span></span></li>
+                            <li><img class="icon" src="./icons/star.png" alt=""> <span><span class="num">4.9</span> rating (537)</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div id="recipes-link">
+                <a href="#">See all recipes →</a>
+            </div>
+        </section>
+
+
+        <!-- testimonials -->
+        <section id="testimonials" class="bg-light-orange py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div id="tesi-header" class="text-center text-lg-start">
+                            <h5 id="tesi-header-title" class="text-primary">TESTIMONIALS</h5>
+                            <p id="tesi-header-desc">Once you try it, you can't go back</p>
+                        </div>
+                        <div class="customer-reviews row g-4 mt-5">
+                            <div class="col-md-6">
+                                <div class="customer">
+                                    <img class="person rounded-circle" src="./persons/person1.jpg" alt="">
+                                    <p class="customer-review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam animi quaerat, impedit corrupti facilis voluptates dolores consectetur.</p>
+                                    <p class="name mt-3">- Amira Mostafa</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="customer">
+                                    <img class="person rounded-circle" src="./persons/person2.jpg" alt="">
+                                    <p class="customer-review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam animi quaerat, impedit corrupti facilis voluptates dolores consectetur.</p>
+                                    <p class="name mt-3">- Arwa Mostafa</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="customer">
+                                    <img class="person rounded-circle" src="./persons/person3.jpg" alt="">
+                                    <p class="customer-review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam animi quaerat, impedit corrupti facilis voluptates dolores consectetur.</p>
+                                    <p class="name mt-3">- Hana Ahmed</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="customer">
+                                    <img class="person rounded-circle" src="./persons/person4.jpg" alt="">
+                                    <p class="customer-review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam animi quaerat, impedit corrupti facilis voluptates dolores consectetur.</p>
+                                    <p class="name mt-3">- Ahmed Naser</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="images row row-cols-3 g-3">
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-1.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-2.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-3.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-4.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-5.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-6.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-7.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-8.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-9.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-10.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-11.jpg" alt="restaurant image"></div>
+                            <div><img class="gallery img-fluid" src="./gallery/gallery-12.jpg" alt="restaurant image"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 text-center text-lg-start">
+                        <section class="social">
+                            <img id="footer-logo" src="./omnifood-logo.png" alt="" class="img-fluid mb-3" style="width: 150px;">
+                            <ul id="social-icons" class="list-unstyled d-flex justify-content-center justify-content-lg-start gap-3">
+                                <li><img class="icon" src="./icons/instagram.png" alt=""></li>
+                                <li><img class="icon" src="./icons/facebook.png" alt=""></li>
+                                <li><img class="icon" src="./icons/twitter.png" alt=""></li>
+                            </ul>
+                            <p id="copyrights-para">Copyrights © 2027 by Omnifood, Inc. All rights reserved</p>
+                        </section>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center text-lg-start">
+                        <section class="contact d-flex flex-column gap-4 me-2">
+                            <h4>Contact Us</h4>
+                            <p id="address">623 Harrison St., 2nd Floor, San Francisco</p>
+                            <p id="email">415-201-6370</p>
+                        </section>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center text-lg-start">
+                        <section class="account">
+                            <h4>Account</h4>
+                            <ul class="list-unstyled d-flex flex-column gap-4 mt-3">
+                                <li>Create Account</li>
+                                <li>Sign in</li>
+                                <li>iOS</li>
+                                <li>Android app</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center text-lg-start">
+                        <section class="company">
+                            <h4>Company</h4>
+                            <ul class="list-unstyled d-flex flex-column gap-4 mt-3">
+                                <li>About Omnifood</li>
+                                <li>For Business</li>
+                                <li>Cooking partners</li>
+                                <li>Careers</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center text-lg-start">
+                        <section class="resources">
+                            <h4>Resources</h4>
+                            <ul class="list-unstyled d-flex flex-column gap-4 mt-3">
+                                <li>Recipe directory</li>
+                                <li>Help center</li>
+                                <li>Privacy & terms</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

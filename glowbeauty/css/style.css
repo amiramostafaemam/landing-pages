@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+  }
+  
+  .header-section {
+    height: 100vh;
+    background: linear-gradient(rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.4)),
+                url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    color: white;
+  }
+
+  
+.navbar-brand {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color:rgb(236, 156, 170);
+}
+  
+#shopnow {
+  transition: all 0.3s ease;
+}
+#shopnow:hover{
+  background-color:rgba(236, 156, 170, 0.8)!important;
+  color: white !important;
+  border:none;
+  transform: scale(1.05);
+
+}
